@@ -11,7 +11,7 @@
 	<dependencies>
 		<dependency>
 			<groupId>cn.epi</groupId>
-			<artifactId>wx-manager-interface</artifactId>
+			<artifactId>parking-manager-interface</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<!-- JSP相关 -->
@@ -99,7 +99,7 @@
 				<artifactId>tomcat7-maven-plugin</artifactId>
 				<configuration>
 					<path>/</path>
-					<port>8081</port>
+					<port>8083</port>
 				</configuration>
 			</plugin>
 			<plugin>
