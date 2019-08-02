@@ -1,13 +1,13 @@
-package com.epi.java.blog_parent;
+package com.epi.java.blog_common;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BlogParentApplication {
+public class BlogCommonApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(BlogParentApplication.class, args);
+        SpringApplication.run(BlogCommonApplication.class, args);
     }
 
 }

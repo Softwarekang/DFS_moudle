@@ -3,11 +3,12 @@ package com.epi.java.blog_service;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.context.junit4.SpringRunner;
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-@RunWith(SpringRunner.class)
-@SpringBootTest
+@RunWith(SpringJUnit4ClassRunner.class)
+@SpringBootTest(classes = {BlogServiceApplication.class})
 public class BlogServiceApplicationTests {
+
 
     @Test
     public void contextLoads() {

@@ -2,24 +2,18 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <parent>
-        <groupId>com.epi.java</groupId>
-        <artifactId>blog_parent</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
-        <relativePath/> <!-- lookup parent from repository -->
-    </parent>
+   <parent>
+       <groupId>com.epi.java</groupId>
+       <artifactId>blog_parent</artifactId>
+       <version>0.0.1-SNAPSHOT</version>
+   </parent>
     <groupId>com.epi.java</groupId>
-    <artifactId>blog_manage</artifactId>
+    <artifactId>blog_common</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>pom</packaging>
-    <name>blog_manage</name>
+    <packaging>jar</packaging>
+    <name>blog_common</name>
     <description>Demo project for Spring Boot</description>
 
-    <modules>
-        <module>blog_dao</module>
-        <module>blog_interface</module>
-        <module>blog_service</module>
-    </modules>
     <properties>
         <java.version>1.8</java.version>
     </properties>
